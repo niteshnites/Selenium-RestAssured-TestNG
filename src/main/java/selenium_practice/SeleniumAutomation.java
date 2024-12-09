@@ -44,8 +44,10 @@ public class SeleniumAutomation {
         Select selectCity = new Select(cityDropdown);
         selectCity.selectByIndex(1);
 
+        driver.findElement(By.xpath("//input[@value='Login']")).click();
+
         System.out.println("Pass");
-//        driver.quit();
+        driver.quit();
 
     }
 }

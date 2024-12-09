@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NiTesH.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/AuthenticationBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/BasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/GetParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/GetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/GetRequestHeaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/PutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/Selenium4Automation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/WindowTabHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/selenium_practice/SeleniumAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/SeleniumAutomation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,30 +52,49 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ChromeDriverExample.executor": "Run",
+    "Application.GetRequest.executor": "Run",
     "Application.GoogleImageSearchAutomation.executor": "Run",
+    "Application.RestAssuredAutomation.executor": "Run",
+    "Application.Selenium4Automation.executor": "Run",
     "Application.SeleniumAutomation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AuthenticationBasic.authenticationBasics.executor": "Run",
+    "TestNG.BasicAuth.getData.executor": "Run",
+    "TestNG.BasicAuth.getDataWithBasicAuth.executor": "Run",
+    "TestNG.BasicAuth.getUserDataPreemptive.executor": "Run",
+    "TestNG.DeleteRequest.deleteBook.executor": "Run",
+    "TestNG.GetRequest.DisplayAllNodesInWeatherAPI.executor": "Run",
+    "TestNG.GetRequest.queryParameter.executor": "Run",
+    "TestNG.GetRequest.weatherMessageBody.executor": "Run",
+    "TestNG.GetRequestHeaders.GetBookHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.IteratingHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.iteratingHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.weatherMessageBody.executor": "Run",
+    "TestNG.PutRequest.updateBook.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/resources",
+    "last_opened_file_path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/uaf-gradle",
     "onboarding.tips.debug.path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="rest_assured_practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\resources" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\resources\chromedriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeleniumAutomation">
-    <configuration name="ChromeDriverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.ChromeDriverExample" />
+  <component name="RunManager" selected="Application.GetRequest">
+    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.GetRequest" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.*" />
+          <option name="PATTERN" value="rest_assured_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,37 +102,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleImageSearchAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.GoogleImageSearchAutomation" />
+    <configuration name="BasicAuth.getDataWithBasicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.*" />
+          <option name="PATTERN" value="rest_assured_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="rest_assured_practice" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.BasicAuth" />
+      <option name="METHOD_NAME" value="getDataWithBasicAuth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.SeleniumAutomation" />
+    <configuration name="BasicAuth.getUserDataPreemptive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.*" />
+          <option name="PATTERN" value="rest_assured_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="rest_assured_practice" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.BasicAuth" />
+      <option name="METHOD_NAME" value="getUserDataPreemptive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteRequest.deleteBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-RestAssured-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured_practice" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.DeleteRequest" />
+      <option name="METHOD_NAME" value="deleteBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutRequest.updateBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-RestAssured-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured_practice" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.PutRequest" />
+      <option name="METHOD_NAME" value="updateBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeleniumAutomation" />
-        <item itemvalue="Application.ChromeDriverExample" />
-        <item itemvalue="Application.GoogleImageSearchAutomation" />
+        <item itemvalue="Application.GetRequest" />
+        <item itemvalue="TestNG.DeleteRequest.deleteBook" />
+        <item itemvalue="TestNG.PutRequest.updateBook" />
+        <item itemvalue="TestNG.BasicAuth.getUserDataPreemptive" />
+        <item itemvalue="TestNG.BasicAuth.getDataWithBasicAuth" />
       </list>
     </recent_temporary>
   </component>
