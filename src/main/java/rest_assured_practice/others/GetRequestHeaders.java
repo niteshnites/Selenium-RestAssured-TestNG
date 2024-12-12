@@ -1,10 +1,9 @@
-package rest_assured_practice;
+package rest_assured_practice.others;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 

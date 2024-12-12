@@ -1,11 +1,13 @@
 package selenium_practice;
 
 import dev.failsafe.internal.util.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
+
+import java.io.File;
+import java.io.IOException;
 
 public class SeleniumAutomation {
     public static void main(String[] args) throws InterruptedException {
@@ -44,7 +46,20 @@ public class SeleniumAutomation {
         Select selectCity = new Select(cityDropdown);
         selectCity.selectByIndex(1);
 
-        driver.findElement(By.xpath("//input[@value='Login']")).click();
+        WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+        File submitButtonScreen = loginButton.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(submitButtonScreen, new File("target/screenshots/submit.png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot, new File("target/screenshots/test.png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         System.out.println("Pass");
         driver.quit();
