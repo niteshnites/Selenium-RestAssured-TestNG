@@ -1,0 +1,119 @@
+
+// GET
+
+RestAssured.baseURI = "www.api.com/";
+RequestSpecification rs = RestAssured.given();
+Response response = rs.request(Method.GET, "api/participants");
+System.out.print(response.getStatusCode());
+System.out.print(response.getStatusLine());
+System.out.print(response.prettyPrint());
+
+String responseBody = response.getBody().asString();
+
+Assert.assertTrue(responseBody.contains("Nitesh"));
+(String) JsonPath.from(responseBody).get("data[3].firstname");
+(int) JsonPath.from(responseBody).get("total");
+
+
+// POST
+
+RestAssured.baseURI = "www.api.com/"
+RequestSpecifications rs = RestAssured.given();
+rs.header("Content-type", "application/json");
+
+String payloadBody = "{
+                       "name": "nitesh"
+                       "age": 28
+                       "job": "Software Engineer"
+                       }"
+Response response = rs.body(payloadBody).request(Method.POST, "api/participants");
+
+System.out.print(response.getStatusCode());
+System.out.print(response.getStatusLine());
+System.out.print(response.prettyPrint());
+
+
+// PUT
+
+RestAssured.baseURI = "www.api.com/";
+RequestSpecification rs = RestAssured.given();
+rs.header("Content-type", "application/json");
+
+String payloadBody = "{
+                       "name": "Nitesh"
+                       "age": 29
+                       "job": "Software Dev"
+                       }"
+
+Response response = rs.body("").request(Method.PUT, "api/participants/1")
+System.out.println(response.getStatusCode());
+
+
+// DELETE
+
+RestAssured.baseURI = "www.api.com/";
+RequestSpecification rs  = RestAssured.given();
+Response response = rs.request(Method.DELETE, "api/participants/1");
+System.out.println(response.getStatusCode());
+
+
+// AUTH
+
+BASIC
+RestAssured.given().auth().basic("username", "password");
+
+TOKEN
+RestAssured.given().header("Authorization", "Bearer " + token);
+
+OATH1 AND OATH2
+RestAssured.given().auth().oauth(consumerKey, consumerSecret, accessToken, tokenSecret);
+RestAssured.given().auth().oauth2("Access Token");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

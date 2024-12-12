@@ -1,0 +1,50 @@
+
+GET
+
+RestAssured.baseURI = "www.demosite.com/participants"
+RestSpecification httpRequest = RestAssured.given();
+Response response = httpRequest.get("/3");
+ResponseBody rb = response.getBody();
+
+POST
+
+RestAssured.baseURI = "www.demosite.com/"
+RestSpecification httpRequest = RestAssured.given();
+
+JSONObject requestParams = new JSONObject();
+requestParams.put("id", "TEST123");
+requestParams.put("name", "Primary Participant");
+
+request.header("Content-Type", "application/json");
+
+request.body(requestParams.toJSONString());
+
+Response response = request.post("/participants");
+System.out.println("The status received: " + response.statusLine());
+
+PUT
+
+Response res = httpRequest.body("{ \"isbn\": \"" + isbn + "\", \"userId\": \"" + userId + "\"}")
+.put("/BookStore/v1/Book/9781449325862");
+
+Delete
+
+RestAssured.baseURI = baseUrl;
+RequestSpecification httpRequest = RestAssured.given()
+			.header("Authorization", "Bearer " + token)
+			.header("Content-Type", "application/json");
+//Calling the Delete API with request body
+Response res = httpRequest.body("{ \"isbn\": \"" + isbn + "\", \"userId\": \"" + userId + "\"}")
+.delete("/BookStore/v1/Book");
+
+Authorization
+
+Basic Auth
+RestAssured.given().auth().basic("postman", "password").get("your end point URL");
+
+Token
+RestAssured.given().header("Authorization", "Bearer " + token)
+
+Oath1 & Oath2
+RestAssured.given().auth().oauth(consumerKey, consumerSecret, accessToken, tokenSecret).get("your end point URL")
+RestAssured.given().auth().oauth2("Access token").get("your end point URL")
