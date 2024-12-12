@@ -1,0 +1,28 @@
+
+// Read using org.json.simple
+
+JSONParser jsonParser = new JSONParser();
+JSONObject jsonObject = (JSONObject) jsonParser.parse(json_file);
+System.out.println(jsonObject.get("name"));
+
+Array
+JSONArray jsonArray = (JSONArray) jsonObject.get("cars");
+System.out.println(jsonArray.get(0));
+
+
+// Read using jackson-databind
+
+// MAP
+ObjectMapper objectMapper = new ObjectMapper();
+Map <?,?> map = objectMapper.readValue(json_file, Map.class)
+System.out.println(map.get("title"))
+
+// POJO
+ObjectMapper objectMapper = new ObjectMapper();
+Book book = objectMapper.readValue(json_file, Book.class);
+System.out.println(book.getTitle());
+
+// LIST
+ObjectMapper objectMapper = new ObjectMapper();
+List <Book> books = Arrays.asList(objectMapper.readValue(json_file, Book[].class));
+System.out.println(books.get(0).getTitle());
