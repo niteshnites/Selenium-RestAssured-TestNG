@@ -45,7 +45,7 @@ String payloadBody = "{
                        "job": "Software Dev"
                        }"
 
-Response response = rs.body("").request(Method.PUT, "api/participants/1")
+Response response = rs.body(payloadBody).request(Method.PUT, "api/participants/1")
 System.out.println(response.getStatusCode());
 
 
