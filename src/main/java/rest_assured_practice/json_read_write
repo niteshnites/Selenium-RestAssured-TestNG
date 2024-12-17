@@ -26,3 +26,4 @@ System.out.println(book.getTitle());
 ObjectMapper objectMapper = new ObjectMapper();
 List <Book> books = Arrays.asList(objectMapper.readValue(json_file, Book[].class));
 System.out.println(books.get(0).getTitle());
+
