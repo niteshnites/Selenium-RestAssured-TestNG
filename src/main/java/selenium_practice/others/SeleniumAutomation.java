@@ -1,4 +1,4 @@
-package selenium_practice;
+package selenium_practice.others;
 
 import dev.failsafe.internal.util.Assert;
 import org.apache.commons.io.FileUtils;

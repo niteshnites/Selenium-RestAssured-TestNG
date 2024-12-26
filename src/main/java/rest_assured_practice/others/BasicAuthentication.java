@@ -1,4 +1,4 @@
-package rest_assured_practice;
+package rest_assured_practice.others;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;

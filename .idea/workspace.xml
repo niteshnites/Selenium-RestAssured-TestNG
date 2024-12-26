@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/json_read_write" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/json_read_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/others/BasicAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/json_read_write" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/others/json_read_write" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/practice" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/others/practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/practice2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/others/practice2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_practice/Selenium4Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/others/Selenium4Automation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_practice/SeleniumAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/others/SeleniumAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_practice/WindowTabHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/others/WindowTabHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,17 +86,20 @@
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\test\java" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\resources\chromedriver" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java\rest_assured_practice\others" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ReadJsonFile">
     <configuration name="BasicAuthentication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.BasicAuthentication" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.others.BasicAuthentication" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_assured_practice.*" />
+          <option name="PATTERN" value="rest_assured_practice.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +141,11 @@
       </method>
     </configuration>
     <configuration name="SeleniumAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.SeleniumAutomation" />
+      <option name="MAIN_CLASS_NAME" value="selenium_practice.others.SeleniumAutomation" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.*" />
+          <option name="PATTERN" value="selenium_practice.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

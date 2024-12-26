@@ -1,6 +1,5 @@
-package selenium_practice;
+package selenium_practice.others;
 
-import dev.failsafe.internal.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
