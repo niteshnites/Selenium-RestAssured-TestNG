@@ -47,35 +47,15 @@ public class Basics {
 		
 		//Get Place
 		
-	String getPlaceResponse = given().log().all().queryParam("key", "qaclick123")
-		.queryParam("place_id",placeId)
-		.when().get("maps/api/place/get/json")
-		.then().assertThat().log().all().statusCode(200).extract().response().asString();
-	JsonPath js1= ReUsableMethods.rawToJson(getPlaceResponse);
-	String actualAddress =js1.getString("address");
-	System.out.println(actualAddress);
-	Assert.assertEquals(actualAddress, "Pacific ocean");
+		String getPlaceResponse = given().log().all().queryParam("key", "qaclick123")
+			.queryParam("place_id",placeId)
+			.when().get("maps/api/place/get/json")
+			.then().assertThat().log().all().statusCode(200).extract().response().asString();
+		JsonPath js1= ReUsableMethods.rawToJson(getPlaceResponse);
+		String actualAddress =js1.getString("address");
+		System.out.println(actualAddress);
+		Assert.assertEquals(actualAddress, "Pacific ocean");
 
-	
-	
-	
-	
-	
-	
-	
-	
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

@@ -23,13 +23,11 @@ public class Payload {
 				"  \"language\": \"French-IN\"\r\n" + 
 				"}\r\n" + 
 				"";
-		
-		
+
 	}
 	
 	public static String CoursePrice()
 	{
-		
 		return "{\r\n" + 
 				"  \"dashboard\": {\r\n" + 
 				"    \"purchaseAmount\": 1162,\r\n" + 
@@ -62,10 +60,5 @@ public class Payload {
 				"  ]\r\n" + 
 				"}\r\n" + 
 				"";
-		
-		
-		
-}
-	
-	
+	}
 }
