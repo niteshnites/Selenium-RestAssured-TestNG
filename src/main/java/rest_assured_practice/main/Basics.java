@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
 import rest_assured_practice.main.files.ReUsableMethods;
-import rest_assured_practice.main.files.payload;
+import rest_assured_practice.main.files.Payload;
 
 
 public class Basics {
@@ -23,7 +23,7 @@ public class Basics {
 		//Then - validate the response
 		RestAssured.baseURI= "https://rahulshettyacademy.com";
 		String response=given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
-		.body(payload.AddPlace()).when().post("maps/api/place/add/json")
+		.body(Payload.AddPlace()).when().post("maps/api/place/add/json")
 		.then().assertThat().statusCode(200).body("scope", equalTo("APP"))
 		.header("server", "Apache/2.4.18 (Ubuntu)").extract().response().asString();
 		

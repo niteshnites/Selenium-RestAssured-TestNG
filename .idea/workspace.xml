@@ -34,46 +34,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicAuthentication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChromeDriverExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetRequest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleImageSearchAutomation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadJsonFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestAssuredAutomation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selenium4Automation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumAutomation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AuthenticationBasic.authenticationBasics.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AuthenticationBasic.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAuth.getData.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAuth.getDataWithBasicAuth.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAuth.getUserDataPreemptive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DeleteRequest.deleteBook.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequest.DisplayAllNodesInWeatherAPI.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequest.queryParameter.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequest.weatherMessageBody.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequestHeaders.GetBookHeaders.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequestHeaders.IteratingHeaders.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequestHeaders.iteratingHeaders.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GetRequestHeaders.weatherMessageBody.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PutRequest.updateBook.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicAuthentication.executor": "Run",
+    "Application.Basics.executor": "Run",
+    "Application.ChromeDriverExample.executor": "Run",
+    "Application.DeleteExample.executor": "Run",
+    "Application.GetExample.executor": "Run",
+    "Application.GetRequest.executor": "Run",
+    "Application.GoogleImageSearchAutomation.executor": "Run",
+    "Application.ReadJsonFile.executor": "Run",
+    "Application.RestAssuredAutomation.executor": "Run",
+    "Application.Selenium4Automation.executor": "Run",
+    "Application.SeleniumAutomation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AuthenticationBasic.authenticationBasics.executor": "Run",
+    "TestNG.AuthenticationBasic.executor": "Run",
+    "TestNG.BasicAuth.getData.executor": "Run",
+    "TestNG.BasicAuth.getDataWithBasicAuth.executor": "Run",
+    "TestNG.BasicAuth.getUserDataPreemptive.executor": "Run",
+    "TestNG.DeleteRequest.deleteBook.executor": "Run",
+    "TestNG.GetRequest.DisplayAllNodesInWeatherAPI.executor": "Run",
+    "TestNG.GetRequest.queryParameter.executor": "Run",
+    "TestNG.GetRequest.weatherMessageBody.executor": "Run",
+    "TestNG.GetRequestHeaders.GetBookHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.IteratingHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.iteratingHeaders.executor": "Run",
+    "TestNG.GetRequestHeaders.weatherMessageBody.executor": "Run",
+    "TestNG.PutRequest.updateBook.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/rest_assured_practice/main",
+    "onboarding.tips.debug.path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="rest_assured_practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java\rest_assured_practice\main" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\resources" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\test\java" />

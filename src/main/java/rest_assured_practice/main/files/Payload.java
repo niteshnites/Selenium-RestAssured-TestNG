@@ -1,6 +1,6 @@
 package rest_assured_practice.main.files;
 
-public class payload {
+public class Payload {
 
 	
 	public static String AddPlace()

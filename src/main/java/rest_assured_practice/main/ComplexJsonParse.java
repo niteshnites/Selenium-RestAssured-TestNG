@@ -1,7 +1,7 @@
 package rest_assured_practice.main;
 
 import io.restassured.path.json.JsonPath;
-import rest_assured_practice.main.files.payload;
+import rest_assured_practice.main.files.Payload;
 
 public class ComplexJsonParse {
 
@@ -9,7 +9,7 @@ public class ComplexJsonParse {
 		// TODO Auto-generated method stub
 
 		
-		JsonPath js=new JsonPath(payload.CoursePrice());
+		JsonPath js=new JsonPath(Payload.CoursePrice());
 		//Print No of courses returned by API
 		
 int count=	js.getInt("courses.size()");
