@@ -3,9 +3,7 @@ package rest_assured_practice.main.files;
 public class Payload {
 
 	
-	public static String AddPlace()
-	
-	{
+	public static String AddPlace() {
 		return "{\r\n" + 
 				"  \"location\": {\r\n" + 
 				"    \"lat\": -38.383494,\r\n" + 
@@ -26,8 +24,7 @@ public class Payload {
 
 	}
 	
-	public static String CoursePrice()
-	{
+	public static String CoursePrice() {
 		return "{\r\n" + 
 				"  \"dashboard\": {\r\n" + 
 				"    \"purchaseAmount\": 1162,\r\n" + 
@@ -61,4 +58,16 @@ public class Payload {
 				"}\r\n" + 
 				"";
 	}
+
+	public static String addBook(){
+		String payload = "{\n" +
+				"\n" +
+				"\"name\":\"Learn Appium Automation with Java\",\n" +
+				"\"isbn\":\"bcd\",\n" +
+				"\"aisle\":\"222733\",\n" +
+				"\"author\":\"John foe\"\n" +
+				"}\n";
+		return payload;
+	}
 }
+
