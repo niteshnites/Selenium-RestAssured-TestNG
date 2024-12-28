@@ -9,7 +9,8 @@ public class DynamicJson {
     @Test
     public void addBook(){
         RestAssured.baseURI = "http://216.10.245.166";
-        String response = RestAssured.given().header("Content-Type", "application/json")
+        String response = RestAssured.given()
+                .header("Content-Type", "application/json")
                 .body(Payload.addBook())
                 .when()
                 .post("/Library/Addbook.php")

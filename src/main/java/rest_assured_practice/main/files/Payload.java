@@ -2,72 +2,72 @@ package rest_assured_practice.main.files;
 
 public class Payload {
 
-	
 	public static String AddPlace() {
-		return "{\r\n" + 
-				"  \"location\": {\r\n" + 
-				"    \"lat\": -38.383494,\r\n" + 
-				"    \"lng\": 33.427362\r\n" + 
-				"  },\r\n" + 
-				"  \"accuracy\": 50,\r\n" + 
-				"  \"name\": \"Rahul Shetty Academy\",\r\n" + 
-				"  \"phone_number\": \"(+91) 983 893 3937\",\r\n" + 
-				"  \"address\": \"29, side layout, cohen 09\",\r\n" + 
-				"  \"types\": [\r\n" + 
-				"    \"shoe park\",\r\n" + 
-				"    \"shop\"\r\n" + 
-				"  ],\r\n" + 
-				"  \"website\": \"http://rahulshettyacademy.com\",\r\n" + 
-				"  \"language\": \"French-IN\"\r\n" + 
-				"}\r\n" + 
-				"";
-
+		return """
+                {\r
+                  "location": {\r
+                    "lat": -38.383494,\r
+                    "lng": 33.427362\r
+                  },\r
+                  "accuracy": 50,\r
+                  "name": "Rahul Shetty Academy",\r
+                  "phone_number": "(+91) 983 893 3937",\r
+                  "address": "29, side layout, cohen 09",\r
+                  "types": [\r
+                    "shoe park",\r
+                    "shop"\r
+                  ],\r
+                  "website": "http://rahulshettyacademy.com",\r
+                  "language": "French-IN"\r
+                }\r
+                """;
 	}
 	
 	public static String CoursePrice() {
-		return "{\r\n" + 
-				"  \"dashboard\": {\r\n" + 
-				"    \"purchaseAmount\": 1162,\r\n" + 
-				"    \"website\": \"rahulshettyacademy.com\"\r\n" + 
-				"  },\r\n" + 
-				"  \"courses\": [\r\n" + 
-				"    {\r\n" + 
-				"      \"title\": \"Selenium Python\",\r\n" + 
-				"      \"price\": 50,\r\n" + 
-				"      \"copies\": 6\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"      \"title\": \"Cypress\",\r\n" + 
-				"      \"price\": 40,\r\n" + 
-				"      \"copies\": 4\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"      \"title\": \"RPA\",\r\n" + 
-				"      \"price\": 45,\r\n" + 
-				"      \"copies\": 10\r\n" + 
-				"    },\r\n" + 
-				"     {\r\n" + 
-				"      \"title\": \"Appium\",\r\n" + 
-				"      \"price\": 36,\r\n" + 
-				"      \"copies\": 7\r\n" + 
-				"    }\r\n" + 
-				"    \r\n" + 
-				"    \r\n" + 
-				"    \r\n" + 
-				"  ]\r\n" + 
-				"}\r\n" + 
-				"";
+		return """
+                {\r
+                  "dashboard": {\r
+                    "purchaseAmount": 1162,\r
+                    "website": "rahulshettyacademy.com"\r
+                  },\r
+                  "courses": [\r
+                    {\r
+                      "title": "Selenium Python",\r
+                      "price": 50,\r
+                      "copies": 6\r
+                    },\r
+                    {\r
+                      "title": "Cypress",\r
+                      "price": 40,\r
+                      "copies": 4\r
+                    },\r
+                    {\r
+                      "title": "RPA",\r
+                      "price": 45,\r
+                      "copies": 10\r
+                    },\r
+                     {\r
+                      "title": "Appium",\r
+                      "price": 36,\r
+                      "copies": 7\r
+                    }\r
+                    \r
+                    \r
+                    \r
+                  ]\r
+                }\r
+                """;
 	}
 
-	public static String addBook(){
-		String payload = "{\n" +
-				"\n" +
-				"\"name\":\"Learn Appium Automation with Java\",\n" +
-				"\"isbn\":\"bcd\",\n" +
-				"\"aisle\":\"222733\",\n" +
-				"\"author\":\"John foe\"\n" +
-				"}\n";
-		return payload;
+	public static String addBook() {
+        return """
+                {
+                "name":"Learn Appium Automation with Java",
+                "isbn":"bcd",
+                "aisle":"2227330",
+                "author":"John foe"
+                }
+                """;
 	}
 }
 
