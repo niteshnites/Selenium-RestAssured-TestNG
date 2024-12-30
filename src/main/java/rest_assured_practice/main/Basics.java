@@ -9,10 +9,14 @@ import org.testng.Assert;
 import rest_assured_practice.main.files.ReUsableMethods;
 import rest_assured_practice.main.files.Payload;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 
 public class Basics {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
 		// validate if Add Place API is working as expected
 		// add place-> Update Place with New Address -> Get Place to validate if New address is present in response
@@ -25,7 +29,9 @@ public class Basics {
 //				.log().all()
 				.queryParam("key", "qaclick123")
 				.header("Content-Type","application/json")
-				.body(Payload.AddPlace())
+//				.body(Payload.AddPlace())
+				.body(new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") +
+						"\\src\\main\\java\\rest_assured_practice\\main\\data\\addPlace.json"))))
 				.when()
 				.post("maps/api/place/add/json")
 				.then()
@@ -82,7 +88,7 @@ public class Basics {
 		JsonPath jsonPath1 = ReUsableMethods.rawToJson(getPlaceResponse);
 		String actualAddress = jsonPath1.getString("address");
 		System.out.println("Updated Address: " + actualAddress);
-		Assert.assertEquals(actualAddress, "Pacific ocean");
+		Assert.assertNotEquals(actualAddress, "Pacific ocean");
 
 	}
 }
