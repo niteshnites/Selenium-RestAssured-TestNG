@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/ComplexJsonParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/SumValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/SumValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/DynamicJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/Payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/ReUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/files/ReUsableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,7 @@
     "TestNG.DynamicJson.addBook (3).executor": "Run",
     "TestNG.DynamicJson.addBook (4).executor": "Run",
     "TestNG.DynamicJson.addBook.executor": "Run",
+    "TestNG.DynamicJson.executor": "Run",
     "TestNG.GetRequest.DisplayAllNodesInWeatherAPI.executor": "Run",
     "TestNG.GetRequest.queryParameter.executor": "Run",
     "TestNG.GetRequest.weatherMessageBody.executor": "Run",
@@ -98,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicJson">
+  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.Basics" />
       <module name="Selenium-RestAssured-TestNG" />
@@ -123,24 +121,6 @@
       <option name="PACKAGE_NAME" value="rest_assured_practice.main.files" />
       <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.files.DynamicJson" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicJson.addBook (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-RestAssured-TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest_assured_practice.main.files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest_assured_practice.main.files" />
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.files.DynamicJson" />
-      <option name="METHOD_NAME" value="addBook" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -183,13 +163,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-RestAssured-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured_practice.main.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured_practice.main.files" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.files.DynamicJson" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="TestNG.DynamicJson" />
         <item itemvalue="TestNG.DynamicJson.addBook (4)" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook (3)" />
-        <item itemvalue="TestNG.DynamicJson.addBook (2)" />
       </list>
     </recent_temporary>
   </component>

@@ -59,15 +59,13 @@ public class Payload {
                 """;
 	}
 
-	public static String addBook() {
-        return """
-                {
-                "name":"Learn Appium Automation with Java",
-                "isbn":"bcd",
-                "aisle":"2227330",
-                "author":"John foe"
-                }
-                """;
+	public static String addBook(String isbn, String aisle) {
+        return "{\n" +
+				"\"name\":\"Learn Appium Automation with Java\",\n" +
+				"\"isbn\":\"" + isbn + "\",\n" +
+				"\"aisle\":\"" + aisle + "\",\n" +
+				"\"author\":\"John foe\"\n" +
+				"}";
 	}
 }
 
