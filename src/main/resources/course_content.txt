@@ -1,0 +1,140 @@
+
+
+Selenium + REST Assured
+Introduction
+Introduction
+How To Take This Course and How To Get Help
+Download the Source Code and PDF Files
+
+
+Selenium + REST Assured Review
+Selenium - Overview
+REST Assured - Overview
+Project Setup (First Half Selenium, Second Half REST Assured)
+
+
+Selenium Quick Start
+Selenium Architecture - Overview
+Selenium First Test - Overview
+Selenium First Test - Code
+Selenium WebDriver Methods - Overview
+Selenium WebDriver Methods - Code
+Locators Strategies - Overview
+Locators Strategies - Code
+
+
+Selenium Actions
+Navigating the Browser
+Interacting with Web Elements
+Retrieving Element Attributes and States
+Handling Dropdowns
+Mouse Actions (Using Action Class)
+Handling Alerts
+Working with Frames
+Handling Windows
+Working with Tables
+File Uploads
+Screenshots
+Capturing Logs
+
+
+Selenium Waiting Mechanisms
+Implicit Wait
+Explicit Wait
+Fluent Wait
+
+
+Managing Cookies / Chrome Options / Browser
+Cookie ADD / GET / DELETE
+Chrome Options BASIC / HEADLESS / SSL
+Advanced Browser Management
+
+
+Real Time Challenges
+Dynamic Web Elements
+Handling Synchronization Issues
+Cross-Browser Compatibility
+Handling iFrames
+Scrolling to Elements
+Handling Stale Element Reference
+Taking Screenshots on Failure
+Working with Shadow DOM Elements
+Asserting CSS and Styles
+
+
+Selenium 4.0 Features
+W3C WebDriver Standard Compliance
+Relative Locators
+Improved Selenium Grid
+Enhanced Window Management
+Improved DevTools Support
+Full Page Screenshot
+Bidirectional Protocol Support
+Selenium IDE Enhancements
+Deprecation of DesiredCapabilities
+Improved File Upload and Download
+
+
+Advance Concepts
+Apache POI - Excel Data Driven Testing
+AUTO IT - File Upload and Download
+
+
+TestNG
+Setting Up TestNG
+Writing a TestNG Test Case
+Common Annotations in TestNG
+Assertions in TestNG
+Parallel Execution
+Parameterized Testing
+DataProvider for Data-Driven Testing
+Reporting
+Customizing TestNG
+Advanced TestNG Features
+
+
+Automation Framework
+Project structure
+POM (Page Object Model) - Overview
+OOPs Concepts in Framework
+
+
+REST Assured Quick Start
+REST API Introduction
+Postman Introduction
+Understanding HTTP Methods
+REST Assured First Test
+
+
+REST Assured Methods
+GET Method
+POST Method
+PUT Method
+DELETE Method
+PATCH Method
+
+
+Response Validation
+Validate Status codes
+Validate Response headers
+Validate JSON
+Parsing JSON responses
+Validating nested JSON elements
+Handling arrays in JSON responses
+
+
+Authentication and Authorization
+Basic auth
+Bearer tokens
+OAuth2
+
+
+Real Time Challenges
+Logging
+Data-Driven Testing
+File Uploads and Downloads
+Serialization and Deserialization
+Excel Integration using Apache POI
+
+
+ CI/CD Integration with Jenkins and GitHub
