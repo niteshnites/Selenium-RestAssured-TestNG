@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/data/NiTes.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/jira/BugTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +36,7 @@
   "keyToString": {
     "Application.BasicAuthentication.executor": "Run",
     "Application.Basics.executor": "Run",
+    "Application.BugTest.executor": "Run",
     "Application.ChromeDriverExample.executor": "Run",
     "Application.DeleteExample.executor": "Run",
     "Application.GetExample.executor": "Run",
@@ -95,7 +93,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BugTest">
+  <component name="RunManager" selected="Application.AuthExample">
+    <configuration name="AuthExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth.AuthExample" />
+      <module name="Selenium-RestAssured-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured_practice.main.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.Basics" />
       <module name="Selenium-RestAssured-TestNG" />
@@ -135,23 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-RestAssured-TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest_assured_practice.main.files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest_assured_practice.main.files" />
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.files.DynamicJson" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
@@ -172,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuthExample" />
         <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.SeleniumAutomation" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
-        <item itemvalue="TestNG.DynamicJson" />
       </list>
     </recent_temporary>
   </component>
