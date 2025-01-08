@@ -29,17 +29,43 @@ SELECT TOP 5 * FROM Customers;
 
 SELECT * FROM Customers WHERE City IN (SELECT City FROM Customers GROUP BY City HAVING COUNT(CustomerID) >= 4);
 
+Insert Statements
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
 
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES
+('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway'),
+('Greasy Burger', 'Per Olsen', 'Gate Veien 15', 'Sandnes', '4306', 'Norway'),
+('Tasty Tee', 'Finn Egan', 'Street Road 19B', 'Liverpool', 'L1 0AA', 'UK');
 
+Update Statements
+UPDATE Customers SET CustomerName = 'Nitesh Bhardwaj' WHERE  CustomerID = 1;
+UPDATE Employees SET Salary = 50000;
 
+Delete Statements
+DELETE FROM Customers WHERE CustomerName='Nitesh Bhardwaj';
+DELETE FROM Customers;
 
+JOINS Statements
+JOIN and INNER JOIN will return the same result.
+INNER is the default join type for JOIN, so when you write JOIN the parser actually writes INNER JOIN.
+Here are the different types of the JOINs in SQL:
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+SELF JOIN: A self join is a regular join, but the table is joined with itself.
 
+SELECT Customers.ContactName, Customers.Country, Orders.OrderID
+FROM Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
-
-
-
-
-
+SELECT Products.ProductID, Products.ProductName, Categories.CategoryName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
 
