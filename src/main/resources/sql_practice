@@ -1,0 +1,45 @@
+SQL
+Select Statements
+https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+
+SELECT * FROM Customers;
+
+SELECT CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country
+FROM Customers;
+
+SELECT DISTINCT City FROM Customers;
+
+SELECT * FROM Customers WHERE Country = 'Germany';
+SELECT * FROM Customers WHERE PostalCode = "WA1 1DP";
+
+SELECT * FROM Customers ORDER BY ContactName ASC;
+SELECT * FROM Customers ORDER BY ContactName DESC;
+
+SELECT Country, COUNT(ContactName) FROM Customers GROUP BY Country;
+SELECT Country, COUNT(ContactName) FROM Customers GROUP BY Country HAVING COUNT(ContactName) > 5;
+
+SELECT * FROM Customers WHERE CustomerName LIKE 'A%';
+
+SELECT * FROM Customers WHERE PostalCode BETWEEN '80000' AND '99999'
+
+SELECT * FROM Customers WHERE PostalCode IS NULL;
+SELECT * FROM Customers WHERE PostalCode IS NOT NULL;
+
+SELECT TOP 5 * FROM Customers;
+
+SELECT * FROM Customers WHERE City IN (SELECT City FROM Customers GROUP BY City HAVING COUNT(CustomerID) >= 4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
