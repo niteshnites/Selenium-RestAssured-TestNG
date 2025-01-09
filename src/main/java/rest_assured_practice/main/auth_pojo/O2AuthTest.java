@@ -1,4 +1,4 @@
-package rest_assured_practice.main.demo;
+package rest_assured_practice.main.auth_pojo;
 
 import static io.restassured.RestAssured.given;
 
@@ -9,9 +9,9 @@ import java.util.List;
 import org.testng.Assert;
 
 import io.restassured.path.json.JsonPath;
-import rest_assured_practice.main.pojo.Api;
-import rest_assured_practice.main.pojo.GetCourse;
-import rest_assured_practice.main.pojo.WebAutomation;
+import rest_assured_practice.main.auth_pojo.pojo.Api;
+import rest_assured_practice.main.auth_pojo.pojo.GetCourse;
+import rest_assured_practice.main.auth_pojo.pojo.WebAutomation;
 
 public class O2AuthTest {
 

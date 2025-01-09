@@ -1,4 +1,4 @@
-package rest_assured_practice.main.pojo;
+package rest_assured_practice.main.auth_pojo.pojo;
 
 import java.util.List;
 

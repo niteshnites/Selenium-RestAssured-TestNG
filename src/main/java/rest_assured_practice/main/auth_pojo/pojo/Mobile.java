@@ -1,6 +1,6 @@
-package rest_assured_practice.main.pojo;
+package rest_assured_practice.main.auth_pojo.pojo;
 
-public class Api {
+public class Mobile {
 
 	private String courseTitle;
 	private String price;
