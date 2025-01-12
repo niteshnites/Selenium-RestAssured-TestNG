@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/auth_pojo/SpecBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/auth_pojo/pojo/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/auth_pojo/pojo/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest_assured_practice/main/auth_pojo/pojo/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +50,9 @@
     "Application.RestAssuredAutomation.executor": "Run",
     "Application.Selenium4Automation.executor": "Run",
     "Application.SeleniumAutomation.executor": "Run",
+    "Application.SerializeTest.executor": "Run",
     "Application.SpecBuilderTest.executor": "Run",
+    "Application.Test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AuthenticationBasic.authenticationBasics.executor": "Run",
@@ -96,6 +94,7 @@
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java\rest_assured_practice\main\auth_pojo\pojo" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java\rest_assured_practice\main" />
       <recent name="C:\Users\a877743\OneDrive - Eviden\Desktop\JAVA\Selenium-RestAssured-TestNG\src\main\java\rest_assured_practice\others" />
     </key>
@@ -103,13 +102,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="AuthExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth.AuthExample" />
+  <component name="RunManager" selected="Application.ECommerceAPITest">
+    <configuration name="ECommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.ECommerceAPITest" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_assured_practice.main.auth.*" />
+          <option name="PATTERN" value="rest_assured_practice.main.auth_pojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ECommerceAPITest" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SerializeTest" />
         <item itemvalue="Application.SpecBuilderTest" />
         <item itemvalue="Application.O2AuthTest" />
-        <item itemvalue="Application.AuthExample" />
       </list>
     </recent_temporary>
   </component>
