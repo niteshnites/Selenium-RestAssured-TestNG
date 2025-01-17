@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uni_rest/ApiAutomationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Application.BugTest.executor": "Run",
     "Application.ChromeDriverExample.executor": "Run",
     "Application.DeleteExample.executor": "Run",
+    "Application.ECommerceAPITest.executor": "Run",
     "Application.GetExample.executor": "Run",
     "Application.GetRequest.executor": "Run",
     "Application.GoogleImageSearchAutomation.executor": "Run",
@@ -54,6 +56,7 @@
     "Application.SpecBuilderTest.executor": "Run",
     "Application.Test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AuthenticationBasic.authenticationBasics.executor": "Run",
     "TestNG.AuthenticationBasic.executor": "Run",
@@ -102,13 +105,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ECommerceAPITest">
-    <configuration name="ECommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.ECommerceAPITest" />
+  <component name="RunManager" selected="Application.ApiAutomationExample">
+    <configuration name="ApiAutomationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni_rest.ApiAutomationExample" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest_assured_practice.main.auth_pojo.*" />
+          <option name="PATTERN" value="uni_rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="O2AuthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.O2AuthTest" />
+    <configuration name="ECommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.ECommerceAPITest" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiAutomationExample" />
         <item itemvalue="Application.ECommerceAPITest" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SerializeTest" />
         <item itemvalue="Application.SpecBuilderTest" />
-        <item itemvalue="Application.O2AuthTest" />
       </list>
     </recent_temporary>
   </component>
