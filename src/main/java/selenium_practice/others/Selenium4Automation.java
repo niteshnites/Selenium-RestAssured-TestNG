@@ -3,6 +3,7 @@ package selenium_practice.others;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 
@@ -10,7 +11,7 @@ public class Selenium4Automation {
     public static void main(String[] args) throws InterruptedException {
 
         // Launch
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
 
