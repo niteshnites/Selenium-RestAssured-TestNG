@@ -44,9 +44,7 @@
     "Application.Basics.executor": "Run",
     "Application.BugTest.executor": "Run",
     "Application.ChromeDriverExample.executor": "Run",
-    "Application.CsmPoc.executor": "Run",
     "Application.DeleteExample.executor": "Run",
-    "Application.ECommerceAPITest.executor": "Run",
     "Application.GetExample.executor": "Run",
     "Application.GetRequest.executor": "Run",
     "Application.GoogleImageSearchAutomation.executor": "Run",
@@ -109,13 +107,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CsmPoc">
-    <configuration name="CsmPoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.main.CsmPoc" />
+  <component name="RunManager" selected="Application.ECommerceAPITest">
+    <configuration name="ECommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.ECommerceAPITest" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.main.*" />
+          <option name="PATTERN" value="rest_assured_practice.main.auth_pojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium4Automation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium_practice.others.Selenium4Automation" />
+    <configuration name="SerializeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rest_assured_practice.main.auth_pojo.SerializeTest" />
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +175,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CsmPoc" />
-        <item itemvalue="Application.Selenium4Automation" />
         <item itemvalue="Application.ECommerceAPITest" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SerializeTest" />

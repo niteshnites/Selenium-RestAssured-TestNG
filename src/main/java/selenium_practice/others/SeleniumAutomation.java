@@ -3,7 +3,9 @@ package selenium_practice.others;
 import dev.failsafe.internal.util.Assert;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
@@ -13,7 +15,7 @@ public class SeleniumAutomation {
     public static void main(String[] args) throws InterruptedException {
 
         // Launch
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
 
