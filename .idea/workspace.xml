@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deafb938-02c8-4fb9-8b50-f958228de5eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/main/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/main/extends_reports/ExtendsReporterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/main/extends_reports/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/main/extends_reports/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_practice/main/CsmPoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_practice/main/CsmPoc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/rest_assured_practice/main/data",
     "onboarding.tips.debug.path": "C:/Users/a877743/OneDrive - Eviden/Desktop/JAVA/Selenium-RestAssured-TestNG/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,7 +117,7 @@
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.main.*" />
+          <option name="PATTERN" value="selenium_practice.main.extends_reports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,7 +156,7 @@
       <module name="Selenium-RestAssured-TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium_practice.main.*" />
+          <option name="PATTERN" value="selenium_practice.main.extends_reports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

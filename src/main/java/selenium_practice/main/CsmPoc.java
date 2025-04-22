@@ -5,13 +5,19 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Listeners;
+import selenium_practice.main.extends_reports.TestListener;
 
 import java.time.Duration;
 import java.util.List;
 
+@Listeners(TestListener.class)
 public class CsmPoc {
     static WebDriver driver;
     public static void main(String[] args) {
+
+
+
 //        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
