@@ -27,7 +27,7 @@ public class CsmPoc {
 
         shouldBeDisplayed(By.xpath("//input[@type='password']"));
         WebElement passwordField = driver.findElement(By.xpath("//input[@type='password']"));
-        passwordField.sendKeys("_ADD_YOUR_PASSWORD_HERE_");
+        passwordField.sendKeys("Nn21@org");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         shouldBeDisplayed(By.xpath("//div[contains(text(), 'Stay signed in?')] | //h1[contains(text(), 'Stay signed in?')]"));
@@ -106,6 +106,5 @@ public class CsmPoc {
             throw new RuntimeException("Failed to verify element visibility after " + maxRetries + " attempts: " + locator);
         }
     }
-
 }
 
